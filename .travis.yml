@@ -1,0 +1,17 @@
+sudo: required
+language: cpp
+dist: bionic
+
+os: 
+    - linux
+
+compiler:
+    - g++
+    - clang
+
+script:
+    - mkdir build
+    - cd build
+    - cmake ..
+    - make
+    ./TravisCITest
