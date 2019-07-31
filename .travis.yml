@@ -1,17 +1,17 @@
-sudo: required
 language: cpp
 dist: bionic
+compiler: gcc
 
 os: 
-    - linux
+  - linux
 
 compiler:
-    - g++
-    - clang
+  - g++
+  - clang
 
 script:
-    - mkdir build
-    - cd build
-    - cmake ..
-    - make
-    ./TravisCITest
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - ./TravisCITest
