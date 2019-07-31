@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(TravisCITest)
 
 set(SRC_LIST
-    palindrome_stl.cpp
+    palindrome.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SRC_LIST})
