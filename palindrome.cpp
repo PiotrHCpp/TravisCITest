@@ -2,7 +2,7 @@
 #include <string>
 #include <string_view>
 
-bool isPalindrome(std::string_view &input)
+bool isPalindrome(const std::string_view &input)
 {
     auto ritr = input.rbegin();
     for(auto itr = input.begin(); itr != input.end(); ++itr)
