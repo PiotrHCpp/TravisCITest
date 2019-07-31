@@ -1,13 +1,12 @@
 language: cpp
 dist: bionic
-compiler: gcc
 
 os: 
   - linux
 
 compiler:
-  - g++
   - clang
+  - g++
 
 script:
   - mkdir build
