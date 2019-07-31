@@ -16,6 +16,7 @@ bool isPalindrome(const std::string_view &input)
 
 int main()
 {
+    std::cout << "Palindrome function - stl style iterators version.\n";
     std::cout << "Enter string for palindrome check: ";
     std::string string1;
     std::cin >> string1;
